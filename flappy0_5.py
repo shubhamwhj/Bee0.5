@@ -12,9 +12,8 @@ screen = pygame.display.set_mode((width,height))
 images={}
 images["bg1"] = pygame.image.load("bg1.png").convert_alpha()
 images["base"] = pygame.image.load("base.png").convert_alpha()
-images["bird"] = pygame.image.load("redbird-midflap.png").convert_alpha()
+images["bee"] = pygame.image.load("redbird-midflap.png").convert_alpha()
 images["pipe"] = pygame.image.load("pipe-red.png").convert_alpha()
-images["invertedpipe"]=pygame.transform.flip(images["pipe"], False, True)
 images["message"] = pygame.image.load("message.png").convert_alpha()
 images["over"] = pygame.image.load("gameover.png").convert_alpha()
 
@@ -30,7 +29,7 @@ while True:
     
 
     
-    screen.blit(images["bird"],bird)    
+    screen.blit(images["bee"],bee)    
     screen.blit(images["base"],[0,550])
    
     pygame.display.update()
