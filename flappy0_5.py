@@ -17,7 +17,7 @@ images["pipe"] = pygame.image.load("pipe-red.png").convert_alpha()
 images["message"] = pygame.image.load("message.png").convert_alpha()
 images["over"] = pygame.image.load("gameover.png").convert_alpha()
 
-bird= pygame.Rect(100,250,30,30)
+bee= pygame.Rect(100,250,30,30)
 
 while True:    
     screen.fill((50,150,255))
